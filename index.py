@@ -53,7 +53,7 @@ while True:
     cv2.putText(frame, fps_label, (0,25), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 3)
 
     cv2.imshow("detections", frame)
-
+    
     if cv2.waitKey(1) == 27:
         break
 
